@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\",
+  "WorkspaceRootPath": "D:\\Teroarea mea\\ALBANIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|c:\\nunuelectronics\\nunu-electronics-backend\\nunu-electronics-backend\\nunu-electronics-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|d:\\teroarea mea\\albania\\nunu-electronics-backend\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|solutionrelative:nunu-electronics-backend\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|d:\\teroarea mea\\albania\\nunu-electronics-backend\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|solutionrelative:nunu-electronics-backend\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|d:\\teroarea mea\\albania\\nunu-electronics-backend\\nunu-electronics-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|solutionrelative:nunu-electronics-backend\\nunu-electronics-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Nunu-Electronics-BackEND\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Nunu-Electronics-BackEND\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T21:27:24.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Nunu-Electronics-BackEND\\Entities\\Product.cs",
+              "ToolTip": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Entities\\Product.cs",
+              "RelativeToolTip": "Nunu-Electronics-BackEND\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T21:26:54.579Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Nunu-Electronics-BackEND.http",
-              "DocumentMoniker": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "DocumentMoniker": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
               "RelativeDocumentMoniker": "Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
-              "ToolTip": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "ToolTip": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
               "RelativeToolTip": "Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",

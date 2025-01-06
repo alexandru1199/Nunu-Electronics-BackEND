@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj": {}
+    "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj": {}
   },
   "projects": {
-    "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj": {
+    "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj",
+        "projectUniqueName": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj",
         "projectName": "Nunu-Electronics-BackEND",
-        "projectPath": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj",
-        "packagesPath": "C:\\Users\\sirbu\\.nuget\\packages\\",
-        "outputPath": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\obj\\",
+        "projectPath": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj",
+        "packagesPath": "C:\\Users\\57Cri\\.nuget\\packages\\",
+        "outputPath": "D:\\Teroarea mea\\ALBANIA\\Nunu-Electronics-BackEND\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sirbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\57Cri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
