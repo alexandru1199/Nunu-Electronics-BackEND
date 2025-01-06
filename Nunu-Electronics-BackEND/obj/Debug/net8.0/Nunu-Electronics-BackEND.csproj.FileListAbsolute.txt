@@ -88,3 +88,4 @@ C:\NunuElectronics\Nunu-Electronics-BackEND\Nunu-Electronics-BackEND\bin\Debug\n
 C:\NunuElectronics\Nunu-Electronics-BackEND\Nunu-Electronics-BackEND\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\NunuElectronics\Nunu-Electronics-BackEND\Nunu-Electronics-BackEND\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\NunuElectronics\Nunu-Electronics-BackEND\Nunu-Electronics-BackEND\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\NunuElectronics\Nunu-Electronics-BackEND\Nunu-Electronics-BackEND\obj\Debug\net8.0\Nunu-Electronics-BackEND.sourcelink.json

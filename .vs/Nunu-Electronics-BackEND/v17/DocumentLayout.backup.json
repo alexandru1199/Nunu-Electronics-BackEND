@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|c:\\nunuelectronics\\nunu-electronics-backend\\nunu-electronics-backend\\nunu-electronics-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A92A25AE-0A0C-485A-A9F9-FAF858994377}|Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.csproj|solutionrelative:nunu-electronics-backend\\nunu-electronics-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nunu-Electronics-BackEND.http",
+              "DocumentMoniker": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "RelativeDocumentMoniker": "Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "ToolTip": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "RelativeToolTip": "Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-06T20:58:20.662Z",
+              "EditorCaption": ""
             }
           ]
         }
