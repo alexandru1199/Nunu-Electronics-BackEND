@@ -1,0 +1,6 @@
+@Nunu_Electronics_BackEND_HostAddress = http://localhost:5142
+
+GET {{Nunu_Electronics_BackEND_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
