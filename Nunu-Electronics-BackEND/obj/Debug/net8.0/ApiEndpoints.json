@@ -2,7 +2,7 @@
   {
     "ContainingType": "ProductController",
     "Method": "GetAllProducts",
-    "RelativePath": "api/Product",
+    "RelativePath": "Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "ProductController",
     "Method": "AddProduct",
-    "RelativePath": "api/Product",
+    "RelativePath": "Product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "ProductController",
     "Method": "GetProductById",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -64,7 +64,7 @@
   {
     "ContainingType": "ProductController",
     "Method": "UpdateProduct",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,7 +85,7 @@
   {
     "ContainingType": "ProductController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
