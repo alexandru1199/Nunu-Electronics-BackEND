@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "prerendered-routes.json",
+      "AssetFile": "prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:09:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.mde60eb4gw.json",
+      "AssetFile": "prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:09:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mde60eb4gw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs="
+        },
+        {
+          "Name": "label",
+          "Value": "prerendered-routes.json"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,214 @@
+<html><head><link rel="stylesheet" href="styles.css"><script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script>
+  <meta charset="utf-8">
+  <title>NunuElectronics</title>
+  <base href="/">
+  <style ng-app-id="ng">@charset "UTF-8";
+
+
+
+.margine[_ngcontent-ng-c838957424] {
+  margin: -10px !important;
+  padding: -10px !important;
+}
+/*# sourceMappingURL=app.component.css.map */</style><style ng-app-id="ng">@charset "UTF-8";
+
+
+
+*[_ngcontent-ng-c719997939] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar[_ngcontent-ng-c719997939] {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.container[_ngcontent-ng-c719997939] {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-links[_ngcontent-ng-c719997939] {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-links[_ngcontent-ng-c719997939]   li[_ngcontent-ng-c719997939] {
+  margin-right: 20px;
+}
+.nav-links[_ngcontent-ng-c719997939]   a[_ngcontent-ng-c719997939] {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-links[_ngcontent-ng-c719997939]   a[_ngcontent-ng-c719997939]:hover {
+  color: #00bcd4;
+}
+.cart-container[_ngcontent-ng-c719997939] {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.cart-text[_ngcontent-ng-c719997939] {
+  color: white;
+  font-size: 16px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cart-icon[_ngcontent-ng-c719997939] {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  vertical-align: middle;
+}
+.cart-icon[_ngcontent-ng-c719997939]:hover {
+  transform: scale(1.1);
+}
+/*# sourceMappingURL=navbar.component.css.map */</style><style ng-app-id="ng">@charset "UTF-8";
+
+
+
+.cart-container[_ngcontent-ng-c2767731508] {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2[_ngcontent-ng-c2767731508] {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.empty-cart-message[_ngcontent-ng-c2767731508] {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  font-style: italic;
+}
+.cart-item[_ngcontent-ng-c2767731508] {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+.cart-item-image[_ngcontent-ng-c2767731508] {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.cart-item-details[_ngcontent-ng-c2767731508] {
+  flex: 1;
+}
+.cart-item-details[_ngcontent-ng-c2767731508]   h3[_ngcontent-ng-c2767731508] {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+.cart-item-details[_ngcontent-ng-c2767731508]   p.price[_ngcontent-ng-c2767731508] {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-top: 5px;
+}
+.remove-btn[_ngcontent-ng-c2767731508] {
+  background-color: #ff3333;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.remove-btn[_ngcontent-ng-c2767731508]:hover {
+  background-color: #e60000;
+}
+.cart-summary[_ngcontent-ng-c2767731508] {
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.cart-summary[_ngcontent-ng-c2767731508]   p[_ngcontent-ng-c2767731508] {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.cart-actions[_ngcontent-ng-c2767731508] {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.clear-cart-btn[_ngcontent-ng-c2767731508], 
+.checkout-btn[_ngcontent-ng-c2767731508] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.clear-cart-btn[_ngcontent-ng-c2767731508]:hover, 
+.checkout-btn[_ngcontent-ng-c2767731508]:hover {
+  background-color: #45a049;
+}
+.checkout-btn[_ngcontent-ng-c2767731508] {
+  background-color: #008CBA;
+}
+.checkout-btn[_ngcontent-ng-c2767731508]:hover {
+  background-color: #007b8b;
+}
+.quantity-container[_ngcontent-ng-c2767731508] {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.quantity-container[_ngcontent-ng-c2767731508]   button[_ngcontent-ng-c2767731508] {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+}
+.quantity-container[_ngcontent-ng-c2767731508]   button[_ngcontent-ng-c2767731508]:hover {
+  background-color: #0097a7;
+}
+.quantity-container[_ngcontent-ng-c2767731508]   span[_ngcontent-ng-c2767731508] {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+.quantity-container[_ngcontent-ng-c2767731508]   button[disabled][_ngcontent-ng-c2767731508] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=cart.component.css.map */</style></head><body><!--nghm--><app-root _nghost-ng-c838957424="" ng-version="18.2.13" ngh="2" ng-server-context="ssg"><div _ngcontent-ng-c838957424="" class="margine"><app-navbar _ngcontent-ng-c838957424="" _nghost-ng-c719997939="" ngh="0"><nav _ngcontent-ng-c719997939="" class="navbar"><div _ngcontent-ng-c719997939="" class="container"><ul _ngcontent-ng-c719997939="" class="nav-links"><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/" ng-reflect-router-link="/" href="/">Home</a></li><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/contact" ng-reflect-router-link="/contact" href="/contact">Contact</a></li><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/products" ng-reflect-router-link="/products" href="/products">Products</a></li></ul><div _ngcontent-ng-c719997939="" class="cart-container"><a _ngcontent-ng-c719997939="" routerlink="/cart" ng-reflect-router-link="/cart" href="/cart"><span _ngcontent-ng-c719997939="" class="cart-text">Cart</span><img _ngcontent-ng-c719997939="" src="assets/cart-icon.png" alt="Cart" class="cart-icon"></a></div></div></nav></app-navbar><router-outlet _ngcontent-ng-c838957424=""></router-outlet><app-cart _nghost-ng-c2767731508="" ngh="1"><div _ngcontent-ng-c2767731508="" class="cart-container"><h2 _ngcontent-ng-c2767731508="">Your Shopping Cart</h2><div _ngcontent-ng-c2767731508="" class="empty-cart-message"><p _ngcontent-ng-c2767731508="">Your cart is empty!</p></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-for-of": ""
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></app-cart><!--container--></div></app-root>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"3":"t0","4":"t1","5":"t2"},"c":{"3":[{"i":"t0","r":1}],"4":[],"5":[]}},{"c":{"2":[{"i":"c2767731508","r":1}]}}]}</script></body></html>

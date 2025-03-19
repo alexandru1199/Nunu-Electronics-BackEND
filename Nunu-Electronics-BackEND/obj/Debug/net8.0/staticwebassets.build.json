@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "8tneoP4ZCIR4mYq/LGFEpl55pvEr/ZVQrEKjNgEnQAI=",
+  "Hash": "V8jOy6bVTQex0UIgc5D+zdPFZHtqbIg1jBlGpqDFPWs=",
   "Source": "Nunu-Electronics-BackEND",
   "BasePath": "_content/Nunu-Electronics-BackEND",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Nunu-Electronics-BackEND\\wwwroot",
+      "Source": "Nunu-Electronics-BackEND",
+      "ContentRoot": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\wwwroot\\",
+      "BasePath": "_content/Nunu-Electronics-BackEND",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\wwwroot\\prerendered-routes.json",
+      "SourceId": "Nunu-Electronics-BackEND",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\wwwroot\\",
+      "BasePath": "_content/Nunu-Electronics-BackEND",
+      "RelativePath": "prerendered-routes#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mde60eb4gw",
+      "Integrity": "tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prerendered-routes.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "prerendered-routes.json",
+      "AssetFile": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.mde60eb4gw.json",
+      "AssetFile": "C:\\NunuElectronics\\Nunu-Electronics-BackEND\\Nunu-Electronics-BackEND\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mde60eb4gw"
+        },
+        {
+          "Name": "label",
+          "Value": "prerendered-routes.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsn3iRR/qyWE5FnjupFd/A+xAV1Psn+n/FiMxCopWjs="
+        }
+      ]
+    }
+  ]
 }

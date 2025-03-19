@@ -11,5 +11,6 @@ namespace Nunu_Electronics_BackEND.Entities
         public int StockQuantity { get; set; }
         public DateTime? CreatedDate { get; set; }
         public string? Image { get; set; }
+        public string? Description { get; set; }
     }
 }
