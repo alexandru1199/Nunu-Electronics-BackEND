@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Nunu-Electronics-BackEND.props" />
-</Project>
