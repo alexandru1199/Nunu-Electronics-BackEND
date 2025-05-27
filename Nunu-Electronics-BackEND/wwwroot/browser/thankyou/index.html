@@ -1,8 +1,8 @@
-<html><head><link rel="stylesheet" href="styles.css"><script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script>
-  <meta charset="utf-8">
-  <title>NunuElectronics</title>
-  <base href="/">
-  <style ng-app-id="ng">@charset "UTF-8";
+<!DOCTYPE html><html lang="ro"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nunu Electronics</title>
+<link rel="stylesheet" href="styles-SUATTF2Y.css"><style ng-app-id="ng">@charset "UTF-8";
 
 
 
@@ -10,69 +10,107 @@
   margin: -10px !important;
   padding: -10px !important;
 }
-/*# sourceMappingURL=app.component.css.map */</style><style ng-app-id="ng">@charset "UTF-8";
+/*# sourceMappingURL=app.component-JFPP4ETE.css.map */</style><style ng-app-id="ng">@import "https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap";
 
 
 
-*[_ngcontent-ng-c719997939] {
+*[_ngcontent-ng-c1582139205] {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.navbar[_ngcontent-ng-c719997939] {
+.navbar[_ngcontent-ng-c1582139205] {
   background-color: #333;
-  color: #fff;
-  height: 60px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-family: "Outfit", sans-serif;
+}
+.container[_ngcontent-ng-c1582139205] {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
 }
-.container[_ngcontent-ng-c719997939] {
+.left-side[_ngcontent-ng-c1582139205] {
   display: flex;
   align-items: center;
-  width: 100%;
 }
-.nav-links[_ngcontent-ng-c719997939] {
+.nav-links[_ngcontent-ng-c1582139205] {
   list-style: none;
   display: flex;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  gap: 25px;
 }
-.nav-links[_ngcontent-ng-c719997939]   li[_ngcontent-ng-c719997939] {
-  margin-right: 20px;
-}
-.nav-links[_ngcontent-ng-c719997939]   a[_ngcontent-ng-c719997939] {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.nav-links[_ngcontent-ng-c719997939]   a[_ngcontent-ng-c719997939]:hover {
-  color: #00bcd4;
-}
-.cart-container[_ngcontent-ng-c719997939] {
-  margin-left: auto;
+.nav-links[_ngcontent-ng-c1582139205]   li[_ngcontent-ng-c1582139205] {
   display: flex;
   align-items: center;
 }
-.cart-text[_ngcontent-ng-c719997939] {
+.nav-links[_ngcontent-ng-c1582139205]   a[_ngcontent-ng-c1582139205] {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.nav-links[_ngcontent-ng-c1582139205]   a[_ngcontent-ng-c1582139205]:hover {
+  color: #00bcd4;
+}
+.profile-icon[_ngcontent-ng-c1582139205]   img.user-icon[_ngcontent-ng-c1582139205] {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00bcd4;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+.profile-icon[_ngcontent-ng-c1582139205]   img.user-icon[_ngcontent-ng-c1582139205]:hover {
+  transform: scale(1.1);
+  border-color: #fff;
+}
+.right-side[_ngcontent-ng-c1582139205] {
+  display: flex;
+  align-items: center;
+}
+.cart-link[_ngcontent-ng-c1582139205] {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: white;
+  position: relative;
+}
+.cart-text[_ngcontent-ng-c1582139205] {
   font-size: 16px;
   margin-right: 8px;
-  display: inline-block;
-  vertical-align: middle;
 }
-.cart-icon[_ngcontent-ng-c719997939] {
+.cart-icon-wrapper[_ngcontent-ng-c1582139205] {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cart-icon[_ngcontent-ng-c1582139205] {
   width: 35px;
   height: 35px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-  vertical-align: middle;
 }
-.cart-icon[_ngcontent-ng-c719997939]:hover {
+.cart-icon[_ngcontent-ng-c1582139205]:hover {
   transform: scale(1.1);
 }
-/*# sourceMappingURL=navbar.component.css.map */</style><style ng-app-id="ng">
+.cart-badge[_ngcontent-ng-c1582139205] {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=navbar.component-FXM5OHSY.css.map */</style><style ng-app-id="ng">
 
 .thank-you-container[_ngcontent-ng-c2495380287] {
   max-width: 800px;
@@ -120,6 +158,16 @@ h2[_ngcontent-ng-c2495380287] {
 .view-order-btn[_ngcontent-ng-c2495380287]:hover {
   background-color: #007b8b;
 }
-/*# sourceMappingURL=thank-you.component.css.map */</style></head><body><!--nghm--><app-root _nghost-ng-c838957424="" ng-version="18.2.13" ngh="1" ng-server-context="ssg"><div _ngcontent-ng-c838957424="" class="margine"><app-navbar _ngcontent-ng-c838957424="" _nghost-ng-c719997939="" ngh="0"><nav _ngcontent-ng-c719997939="" class="navbar"><div _ngcontent-ng-c719997939="" class="container"><ul _ngcontent-ng-c719997939="" class="nav-links"><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/" ng-reflect-router-link="/" href="/">Home</a></li><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/contact" ng-reflect-router-link="/contact" href="/contact">Contact</a></li><li _ngcontent-ng-c719997939=""><a _ngcontent-ng-c719997939="" routerlink="/products" ng-reflect-router-link="/products" href="/products">Products</a></li></ul><div _ngcontent-ng-c719997939="" class="cart-container"><a _ngcontent-ng-c719997939="" routerlink="/cart" ng-reflect-router-link="/cart" href="/cart"><span _ngcontent-ng-c719997939="" class="cart-text">Cart</span><img _ngcontent-ng-c719997939="" src="assets/cart-icon.png" alt="Cart" class="cart-icon"></a></div></div></nav></app-navbar><router-outlet _ngcontent-ng-c838957424=""></router-outlet><app-thank-you _nghost-ng-c2495380287="" ngh="0"><div _ngcontent-ng-c2495380287="" class="thank-you-container"><h2 _ngcontent-ng-c2495380287="">Thank You for Your Purchase!</h2><div _ngcontent-ng-c2495380287="" class="thank-you-message"><p _ngcontent-ng-c2495380287="">Your order has been successfully processed. We appreciate your business!</p><p _ngcontent-ng-c2495380287="">You will receive a confirmation email shortly with your order details.</p></div></div></app-thank-you><!--container--></div></app-root>
-
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"2":[{"i":"c2495380287","r":1}]}}]}</script></body></html>
+/*# sourceMappingURL=thank-you.component-2YCIB6OQ.css.map */</style></head>
+<body><!--nghm-->
+  <app-root _nghost-ng-c838957424="" ng-version="18.2.13" ngh="2" ng-server-context="ssg"><div _ngcontent-ng-c838957424="" class="margine"><app-navbar _ngcontent-ng-c838957424="" _nghost-ng-c1582139205="" ngh="0"><link _ngcontent-ng-c1582139205="" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&amp;display=swap" rel="stylesheet"><nav _ngcontent-ng-c1582139205="" class="navbar"><div _ngcontent-ng-c1582139205="" class="container"><div _ngcontent-ng-c1582139205="" class="left-side"><ul _ngcontent-ng-c1582139205="" class="nav-links"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><li _ngcontent-ng-c1582139205=""><a _ngcontent-ng-c1582139205="" routerlink="/" ng-reflect-router-link="/" href="/">Home</a></li><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><li _ngcontent-ng-c1582139205=""><a _ngcontent-ng-c1582139205="" routerlink="/products" ng-reflect-router-link="/products" href="/products">Products</a></li><li _ngcontent-ng-c1582139205=""><a _ngcontent-ng-c1582139205="" routerlink="/login" ng-reflect-router-link="/login" href="/login">Login</a></li><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></ul></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></nav></app-navbar><router-outlet _ngcontent-ng-c838957424=""></router-outlet><app-thank-you _nghost-ng-c2495380287="" ngh="1"><div _ngcontent-ng-c2495380287="" class="thank-you-container"><h2 _ngcontent-ng-c2495380287="">Thank You for Your Purchase!</h2><div _ngcontent-ng-c2495380287="" class="thank-you-message"><p _ngcontent-ng-c2495380287="">Your order has been successfully processed. We appreciate your business!</p><p _ngcontent-ng-c2495380287="">You will receive a confirmation email shortly with your order details.</p></div></div></app-thank-you><!--container--></div></app-root>
+<script src="polyfills-NMO55BK7.js" type="module"></script><script src="main-HPWLGTJ6.js" type="module"></script>
+<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"5":"t0","9":"t1","13":"t2","14":"t3"},"c":{"5":[],"9":[],"13":[{"i":"t2","r":1}],"14":[]}},{},{"c":{"2":[{"i":"c2495380287","r":1}]}}]}</script></body></html>

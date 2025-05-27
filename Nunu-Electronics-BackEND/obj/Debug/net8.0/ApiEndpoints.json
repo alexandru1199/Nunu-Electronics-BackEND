@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "Nunu_Electronics_BackEND.Controllers.OrdersController",
+    "Method": "CreateOrderAsync",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDto",
+        "Type": "Nunu_Electronics_BackEND.DTOs.OrderCreatedDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nunu_Electronics_BackEND.Controllers.OrdersController",
+    "Method": "GetOrdersByUserIdAsync",
+    "RelativePath": "api/Orders/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Nunu_Electronics_BackEND.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "Auth/login",

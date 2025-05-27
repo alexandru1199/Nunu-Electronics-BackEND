@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nunu-Electronics-BackEND")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaddce7bdc053a4175588c7f634f6bef354e1b74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58984e171aadc365dcc6885d3db3e6faebba52a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nunu-Electronics-BackEND")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nunu-Electronics-BackEND")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": [".margine {\r\n    margin: -10px !important; /* Elimină orice margine */\r\n    padding:-10px!important; /* Elimină orice spațiu */\r\n  }\r\n"],
+  "mappings": ";;;AAAA,CAAA;AACI,UAAA;AACA,WAAA;;",
+  "names": []
+}

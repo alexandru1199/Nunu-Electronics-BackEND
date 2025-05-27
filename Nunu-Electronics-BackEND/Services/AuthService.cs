@@ -1,8 +1,9 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using Nunu_Electronics_BackEND.DTOs;
 using Nunu_Electronics_BackEND.Entities.Login;
+using Nunu_Electronics_BackEND.Infrastructure.Interfaces;
 using Nunu_Electronics_BackEND.Services.Interfaces;
-using Nunu_Electronics_BackEND.UnitOfWork.Interfaces;
+
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

@@ -67,6 +67,60 @@
         }
       }
     },
+    "/api/Orders": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderCreatedDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderCreatedDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderCreatedDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/user/{userId}": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Product": {
       "get": {
         "tags": [
@@ -252,6 +306,64 @@
         },
         "additionalProperties": false
       },
+      "OrderCreatedDto": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "products": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderProductDto"
+            },
+            "nullable": true
+          },
+          "shippingAddress": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderProduct": {
+        "type": "object",
+        "properties": {
+          "orderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderProductDto": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Product": {
         "type": "object",
         "properties": {
@@ -283,6 +395,20 @@
           "description": {
             "type": "string",
             "nullable": true
+          },
+          "tagID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tags": {
+            "$ref": "#/components/schemas/Tags"
+          },
+          "orderProducts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderProduct"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -301,6 +427,20 @@
           "roleId": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tags": {
+        "type": "object",
+        "properties": {
+          "tagID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tagName": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

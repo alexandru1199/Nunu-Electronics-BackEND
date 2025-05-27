@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Nunu_Electronics_BackEND.DTOs;
 using Nunu_Electronics_BackEND.Entities;
 using Nunu_Electronics_BackEND.Services.Interfaces;
 using System.Collections.Generic;
@@ -32,15 +33,19 @@ public class ProductController : ControllerBase
         return Ok(product);
     }
 
+    
     [HttpPost]
-    public async Task<IActionResult> AddProduct(Product product)
+    public async Task<IActionResult> AddProduct([FromBody] ProductCreateDto dto)
     {
-        await _productService.AddProductAsync(product);
-        return CreatedAtAction(nameof(GetProductById), new { id = product.ProductID }, product);
+        // Adăugăm produsul folosind DTO-ul primit
+        await _productService.AddProductAsync(dto);
+
+        // Răspuns JSON cu mesajul de succes
+        return Ok(new { message = $"Produsul {dto.ProductName} a fost adăugat cu succes!" });
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateProduct(int id, Product product)
+    public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
     {
         if (id != product.ProductID)
             return BadRequest();
@@ -54,5 +59,11 @@ public class ProductController : ControllerBase
     {
         await _productService.DeleteProductAsync(id);
         return NoContent();
+    }
+    [HttpGet("products/tag/{tagId}")]
+    public async Task<IActionResult> GetProductsByTagId(int tagId)
+    {
+        var products = await _productService.GetProductsByTagIdAsync(tagId);
+        return Ok(products);
     }
 }

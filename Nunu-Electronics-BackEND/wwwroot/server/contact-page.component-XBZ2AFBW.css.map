@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/components/contact-page/contact-page.component.scss"],
+  "sourcesContent": ["input[type=text], select, textarea {\r\n    width: 100%; \r\n    padding: 12px; \r\n    border: 1px solid #ccc; \r\n    border-radius: 4px; \r\n    box-sizing: border-box; \r\n    margin-top: 6px; \r\n    margin-bottom: 16px; \r\n    resize: vertical \r\n  }\r\n  \r\n  input[type=submit] {\r\n    background-color: #04AA6D;\r\n    color: white;\r\n    padding: 12px 20px;\r\n    border: none;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n  }\r\n  \r\n\r\n  input[type=submit]:hover {\r\n    background-color: #45a049;\r\n  }\r\n  \r\n\r\n\r\n  .container {\r\n    background-image: url('https://cdnb.artstation.com/p/assets/images/images/014/896/871/large/x-train-.jpg?1546152626');\r\n    background-size: cover; \r\n    background-position: center; \r\n    background-repeat: no-repeat; \r\n    width: 100%; \r\n    height: 100%; \r\n}"],
+  "mappings": ";AAAA,KAAA,CAAA;AAAA;AAAA;AACI,SAAA;AACA,WAAA;AACA,UAAA,IAAA,MAAA;AACA,iBAAA;AACA,cAAA;AACA,cAAA;AACA,iBAAA;AACA,UAAA;;AAGF,KAAA,CAAA;AACE,oBAAA;AACA,SAAA;AACA,WAAA,KAAA;AACA,UAAA;AACA,iBAAA;AACA,UAAA;;AAIF,KAAA,CAAA,YAAA;AACE,oBAAA;;AAKF,CAAA;AACE,oBAAA;AACA,mBAAA;AACA,uBAAA;AACA,qBAAA;AACA,SAAA;AACA,UAAA;;",
+  "names": []
+}

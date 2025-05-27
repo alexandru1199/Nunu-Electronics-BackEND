@@ -1,10 +1,6 @@
 ﻿using Microsoft.Extensions.FileProviders;
 using Microsoft.EntityFrameworkCore;
-using Nunu_Electronics_BackEND.Services.Interfaces;
-using Nunu_Electronics_BackEND.Services;
-using Nunu_Electronics_BackEND.UnitOfWork.Interfaces;
-using Nunu_Electronics_BackEND.UnitOfWork;
-using System.IO;
+using Nunu_Electronics_BackEND;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,10 +23,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AzureSqlConnection")));
 
 // Register dependencies
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddApplicationServices(); // Aici adăugăm serviciile
 var app = builder.Build();
 
 // Enable Swagger in development environment
@@ -45,6 +38,18 @@ app.UseRouting();
 app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
+app.Use(async (context, next) =>
+{
+    context.Response.OnStarting(() =>
+    {
+        context.Response.Headers.Remove("Content-Security-Policy");
+        context.Response.Headers.Remove("X-Content-Type-Options");
+        context.Response.Headers.Remove("X-Frame-Options");
+        return Task.CompletedTask;
+    });
+
+    await next();
+});
 
 // Serve static files from `wwwroot` (general static files for the app)
 app.UseStaticFiles(new StaticFileOptions

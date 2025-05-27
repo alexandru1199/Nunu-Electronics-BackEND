@@ -1,10 +1,15 @@
 {
   "routes": [
     "/",
+    "/addproduct",
     "/cart",
     "/contact",
+    "/login",
     "/navbar",
+    "/orderdetails",
     "/products",
+    "/profile",
+    "/register",
     "/template",
     "/thankyou"
   ]

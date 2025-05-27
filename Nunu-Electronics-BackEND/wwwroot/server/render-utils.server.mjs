@@ -13,7 +13,7 @@ import {
   renderApplication,
   renderModule,
   whenStable
-} from "./chunk-NHJTZF6F.mjs";
+} from "./chunk-6JGRFOMC.mjs";
 import {
   __asyncGenerator,
   __await,
@@ -110,11 +110,4 @@ export {
   Console as \u0275Console,
   SERVER_CONTEXT as \u0275SERVER_CONTEXT
 };
-/**
- * @license
- * Copyright Google LLC All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.dev/license
- */
 //# sourceMappingURL=render-utils.server.mjs.map

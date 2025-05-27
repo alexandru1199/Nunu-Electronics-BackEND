@@ -37172,7 +37172,7 @@ function ProduseComponent_div_1_Template(rf, ctx) {
       const ctx_r2 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r2.addToCart(product_r2));
     });
-    \u0275\u0275text(10, "Add to Cart");
+    \u0275\u0275text(10, "Add to Cart!");
     \u0275\u0275elementEnd()()();
   }
   if (rf & 2) {
